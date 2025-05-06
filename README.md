@@ -4,15 +4,15 @@ Este repositorio contiene tres scripts de Python desarrollados con la librería 
 
 ## Descripción de los Scripts
 
-1.  **`explorar_sicoes.py` (Nombre Sugerido):**
+1.  **`explorar_sicoes.py` :**
     * **Función:** Este script automatiza la navegación a través de las tablas de datos del Sicoes. Recorre cada fila de la tabla e ingresa individualmente a la página de "Ver Ficha" correspondiente a cada registro.
     * **Objetivo:** Facilitar la exploración detallada de la información de cada proceso de contratación listado en las tablas del Sicoes.
 
-2.  **`superar_captcha.py` (Nombre Sugerido):**
+2.  **`superar_captcha.py` :**
     * **Función:** Este script tiene como objetivo superar automáticamente el sistema CAPTCHA presente en el sitio web del Sicoes. Utiliza la información de la sesión del usuario almacenada en el navegador para validar el CAPTCHA sin intervención manual.
     * **Objetivo:** Automatizar el proceso de autenticación y acceso a las secciones protegidas por CAPTCHA, agilizando la interacción con el sitio.
 
-3.  **`integracion_automatica.py` (Nombre Sugerido):**
+3.  **`integracion_automatica.py` :**
     * **Función:** Este script busca integrar la funcionalidad de los dos scripts anteriores en una única ejecución.
     * **Estado Actual:** Actualmente, la detección del CAPTCHA en la sección de "ficha del proceso" no está funcionando correctamente en esta implementación integrada.
     * **Objetivo (Previsto):** Automatizar completamente el flujo de trabajo, desde la navegación por las tablas hasta la superación del CAPTCHA al acceder a la información detallada de cada ficha.
