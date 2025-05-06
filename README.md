@@ -32,15 +32,11 @@ Este repositorio contiene tres scripts de Python desarrollados con la librería 
 
 1.  **Clonar el Repositorio (Opcional):**
     ```bash
-    git clone [https://del-source.com/](https://del-source.com/)
+    git clone https://github.com/BayronFdez/Captcha-Sicoes-Fichas.git
     cd Captcha-Sicoes-Fichas
     ```
 
-2.  **Instalar Dependencias:**
-    ```bash
-    pip install -r requirements.txt  # Si se incluye un archivo requirements.txt
-    ```
-    Asegúrese de instalar Selenium manualmente:
+2.  **Asegúrese de instalar Selenium manualmente:**
     ```bash
     pip install selenium
     ```
